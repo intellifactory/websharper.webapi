@@ -9,12 +9,12 @@ let main =
         .References(fun r ->
             let wsPaths =
                 [
-                    "tools/net45/IntelliFactory.Html.dll"
-                    "tools/net45/IntelliFactory.JavaScript.dll"
-                    "tools/net45/IntelliFactory.WebSharper.dll"
-                    "tools/net45/IntelliFactory.WebSharper.Core.dll"
-                    "tools/net45/IntelliFactory.WebSharper.Sitelets.dll"
-                    "tools/net45/IntelliFactory.WebSharper.Web.dll"
+                    "tools/net40/IntelliFactory.Html.dll"
+                    "tools/net40/IntelliFactory.JavaScript.dll"
+                    "tools/net40/IntelliFactory.WebSharper.dll"
+                    "tools/net40/IntelliFactory.WebSharper.Core.dll"
+                    "tools/net40/IntelliFactory.WebSharper.Sitelets.dll"
+                    "tools/net40/IntelliFactory.WebSharper.Web.dll"
                 ]
             [
                 r.Assembly("System.Configuration")
