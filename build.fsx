@@ -27,9 +27,6 @@ let main =
 
 bt.Solution [
     main
-
-    bt.NuGet.CreatePackage()
-        .Id("WebSharper.WebApi")
-        .Add(main)
+    bt.NuGet.NuSpec("WebSharper.WebApi.nuspec")
 ]
 |> bt.Dispatch
