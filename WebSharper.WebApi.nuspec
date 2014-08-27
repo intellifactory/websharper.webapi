@@ -12,4 +12,8 @@
       <dependency id="WebSharper" />
     </dependencies>
   </metadata>
+  <files>
+    <file src="build\net45\IntelliFactory.WebSharper.WebApi.dll" target="lib\net45" />
+    <file src="build\net45\IntelliFactory.WebSharper.WebApi.xml" target="lib\net45" />
+  </files>
 </package>
